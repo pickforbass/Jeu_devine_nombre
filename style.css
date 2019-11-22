@@ -1,0 +1,96 @@
+body
+{
+    width : 500px;
+    height: 400px;
+    margin: 20px auto 0 auto;
+    border: 3px solid #ff8c00;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#title
+{
+    height: 200px;
+    background: #b0c4de;
+    padding-top: 20px;
+}
+
+h1, h2, h3
+{
+    margin-top : 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+#block
+{
+    width: 50%;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#attemptLeft
+{
+    text-align: center;
+}
+
+#hint
+{
+     margin-top: 5%;
+     height: 300px;
+     text-align: center;
+     font-size: 30px;
+}
+
+#hinttexte
+{
+    animation: fadeout 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#submit, #restart
+{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px 0 5px 0;
+    background : #ff8c00;
+    border: 1px black solid;
+    box-shadow: 1px 1px 1px 1px #452D08;
+}
+
+#restart
+{
+    display: none;
+    text-align: center;
+    width : 40%;
+    margin: 15px auto 15px auto;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+#ans_block
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: #fbfbfb;
+    border: none;
+}
+
+#idmagique
+{
+    display: none;
+    margin-left: 15px;
+}
+
+/*Animations*/
+
+button:active
+{
+    background-color: #db6f77;
+    transform : scale(0.9);
+}
